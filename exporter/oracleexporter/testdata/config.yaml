@@ -1,0 +1,15 @@
+oracle:
+oracle/withsettings:
+  endpoint: http://localhost:8080
+  user: c##cloud$service
+  password: AutoS_Y_S123
+  timeout: 500ms
+  sending_queue:
+    enabled: true
+    num_consumers: 3
+    queue_size: 10
+  retry_on_failure:
+    enabled: true
+    initial_interval: 1s
+    max_interval: 3s
+    max_elapsed_time: 10s
