@@ -1,0 +1,1 @@
+# Opentelemetry collector oracle exporter
